@@ -32,4 +32,4 @@ app.get('/' , (req,res)=>res.send('server is running !'))
 const PORT = process.env.PORT || 3000
 
 
-module.exports = app;
+export default app;
